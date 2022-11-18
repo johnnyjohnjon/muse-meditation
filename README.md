@@ -7,7 +7,7 @@ change imports to your own local
 
 
 TO DO: 
-1. style all the pages 
+1. style the header, and sidebar 
 2. implement chat bot 
 start of backend 
 3. implement sleep page
