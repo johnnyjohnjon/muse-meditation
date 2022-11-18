@@ -12,5 +12,6 @@ TO DO:
 //start of backend 
 3. implement sleep page
 4. implement journal page
-5. implement landing page 
+5. incorporate game
+6. implement landing page 
 
