@@ -9,9 +9,10 @@ change imports to your own local
 TO DO: 
 1. style the header, and sidebar 
 2. implement chat bot 
-//start of backend 
-3. implement sleep page
-4. implement journal page
+
+  //start of backend 
+3. implement sleep page(backend)
+4. implement journal page(backend)
 5. incorporate game
-6. implement landing page 
+6. implement landing page(backend)
 
