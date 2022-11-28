@@ -232,7 +232,7 @@ class Home extends Component {
       this.state.audioStatus
     )
     return (
-      <div className={styles.App} onMouseMove={this._onMouseMove}>
+      <div className={styles.App} onMouseMove={this._onMouseMove} style={{padding:100}}>
         <div className={styles['bg-overlay']}></div>
         <BackgroundImage currentImage={this.state.bgImg} />
 

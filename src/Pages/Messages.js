@@ -4,7 +4,7 @@ import ActionProvider from '../Components/ChatBot/ActionProvider';
 import MessageParser from '../Components/ChatBot/MessageParser';
 import config from '../Components/ChatBot/config';
 
-function Reports() {
+function Messages() {
   return (
     <div className="App">
       <header className="App-header">
@@ -14,5 +14,5 @@ function Reports() {
   );
 }
 
-export default Reports;
+export default Messages;
 
