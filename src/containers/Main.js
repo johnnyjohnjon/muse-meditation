@@ -4,9 +4,8 @@ import { connect } from "react-redux";
 import JournalForm from "/Users/sjamuar/Desktop/muse-meditation/src/Components/JournalForm.js";
 import JournalItems from "/Users/sjamuar/Desktop/muse-meditation/src/Components/JournalItems.js";
 import { addItems, deleteItems } from "/Users/sjamuar/Desktop/muse-meditation/src/redux/actions.js";
-import "/Users/sjamuar/Desktop/muse-meditation/src/App.css";
 
-export class Reports extends Component {
+export class Main extends Component {
   constructor() {
     super();
     this.state = {
@@ -69,4 +68,4 @@ const mapDispatchToProps = (dispatch) => ({
   deleteItems: (id) => dispatch(deleteItems(id)),
 });
 
-export default connect(mapStateToProps, mapDispatchToProps)(Reports);
+export default connect(mapStateToProps, mapDispatchToProps)(Main);
