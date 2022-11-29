@@ -17,7 +17,7 @@ export const SidebarData = [
     cName: 'nav-text'
   },
   {
-    title: 'Chat Bot',
+    title: 'Journal',
     path: '/reports',
     icon: <IoIcons.IoIosPaper />,
     cName: 'nav-text'

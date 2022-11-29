@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import Sound from 'react-sound';
 import 'react-circular-progressbar/dist/styles.css';
-import styles from '/Users/JohnD/muse/src/App.module.css';
+import styles from '/Users/sjamuar/Desktop/muse-meditation/src/App.module.css';
 
 // import logo from './logo.svg';
-import SoundComponent from '/Users/JohnD/muse/src/playSound.js'
+import SoundComponent from '/Users/sjamuar/Desktop/muse-meditation/src/playSound.js'
 import {
   StyledProgressBar,
   StyledSlider,
@@ -12,7 +12,7 @@ import {
   StyledIcon,
   StyledCounter,
   StyledDropdown,
-} from '/Users/JohnD/muse/src/Components'
+} from '/Users/sjamuar/Desktop/muse-meditation/src/Components'
 
 import {
   playButton,
@@ -31,7 +31,7 @@ import {
   wavesImg,
   streamImg,
   resetButton,
-} from '/Users/JohnD/muse/src/constants.js'
+} from '/Users/sjamuar/Desktop/muse-meditation/src/constants.js'
 
 class Home extends Component {
   constructor(props) {
