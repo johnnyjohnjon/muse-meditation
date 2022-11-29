@@ -1,4 +1,4 @@
-import { ADD_ITEM, DELETE_ITEM } from "/Users/sjamuar/Desktop/muse-meditation/src/redux/actions.js";
+import { ADD_ITEM, DELETE_ITEM } from "/Users/JohnD/muse/src/redux/actions.js";
 
 const initialState = {
   journalItems: [],

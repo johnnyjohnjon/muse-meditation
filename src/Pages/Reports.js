@@ -1,4 +1,10 @@
-import React from 'react';
+import React, { Component } from "react";
+import { Modal } from "react-bootstrap";
+import { connect } from "react-redux";
+import JournalForm from "/Users/JohnD/muse/src/Components/JournalForm.js";
+import JournalItems from "/Users/JohnD/muse/src/Components/JournalItems.js";
+import { addItems, deleteItems } from "/Users/JohnD/muse/src/redux/actions.js";
+import "/Users/JohnD/muse/src/App.css";
 
 export class Reports extends Component {
   constructor() {

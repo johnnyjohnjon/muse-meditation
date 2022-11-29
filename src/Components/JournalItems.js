@@ -1,5 +1,5 @@
 import React from "react";
-import { addItems, deleteItems } from "/Users/sjamuar/Desktop/muse-meditation/src/redux/actions.js";
+import { addItems, deleteItems } from "/Users/JohnD/muse/src/redux/actions.js";
 import { MdDeleteForever } from "react-icons/md";
 
 export default function JournalItems({ item, showModal, deleteItems }) {

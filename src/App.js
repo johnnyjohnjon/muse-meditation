@@ -5,7 +5,6 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from '/Users/JohnD/muse/src/Pages/Home.js';
 import Reports from '/Users/JohnD/muse/src/Pages/Reports.js';
 import Products from "/Users/JohnD/muse/src/Pages/Products.js";
-import Messages from './Pages/Messages';
 import { store, persistor } from "./redux/store";
 import { Provider } from "react-redux";
 import { PersistGate } from "redux-persist/integration/react";
