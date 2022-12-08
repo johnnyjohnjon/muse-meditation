@@ -6,7 +6,7 @@ import JournalItems from "/Users/JohnD/muse/src/Components/JournalItems.js";
 import { addItems, deleteItems } from "/Users/JohnD/muse/src/redux/actions.js";
 import "/Users/JohnD/muse/src/App.css";
 
-export class Reports extends Component {
+export class Journal extends Component {
   constructor() {
     super();
     this.state = {
@@ -69,4 +69,4 @@ const mapDispatchToProps = (dispatch) => ({
   deleteItems: (id) => dispatch(deleteItems(id)),
 });
 
-export default connect(mapStateToProps, mapDispatchToProps)(Reports);
+export default connect(mapStateToProps, mapDispatchToProps)(Journal);
